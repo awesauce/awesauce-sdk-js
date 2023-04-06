@@ -1,0 +1,15 @@
+{
+  "name": "awesauce",
+  "version": "0.0.5",
+  "description": "Awesauce SDK for javascript apps.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "local": "tsc && npm pack --pack-destination ~"
+  },
+  "type": "module"
+}
